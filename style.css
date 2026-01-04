@@ -1,0 +1,32 @@
+body{
+  background:#020617;
+  color:white;
+  font-family:Arial;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.calc{
+  background:#111827;
+  padding:16px;
+  border-radius:12px;
+  width:220px;
+}
+input{
+  width:100%;
+  padding:10px;
+  margin-bottom:10px;
+  text-align:right;
+}
+.keys{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:6px;
+}
+button{
+  padding:10px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
